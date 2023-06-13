@@ -1,2 +1,62 @@
 
-  
+#container {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#ticket {
+    padding: 20px;
+    color: white;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+#ticket p {
+    margin: 5px 0;
+  }
+
+
+input, button {
+    margin: 30px 10px;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    left: 140px;
+   
+}
+
+label {
+    display: flex;
+}
+
+
+.ticket-container {
+    background-color: white;
+    height: 150px;
+    margin:50px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.info-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+h5 {
+    text-align: start;
+}
+
+.name {
+    background-color: lightgray;
+}
+.row {
+    border: 1px solid black;
+ }
+
