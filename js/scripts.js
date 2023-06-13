@@ -1,14 +1,14 @@
 document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    var name = document.getElementById("name").value;
-    var km = parseFloat(document.getElementById("km").value);
-    var age = document.getElementById("age").value;
+    const name = document.getElementById("name").value;
+    const km = parseFloat(document.getElementById("km").value);
+    const age = document.getElementById("age").value;
 
-    var ticketDetails = document.getElementById("ticket-details");
+    const ticketDetails = document.getElementById("ticket-details");
     ticketDetails.innerHTML = "";
 
-    var prezzo = km * 0.21;
+    const prezzo = km * 0.21;
 
     if (age === "junior") {
         prezzo = prezzo - (prezzo * 0.2);
@@ -38,6 +38,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
         </div>
     `;
 });
+
 
 
 
